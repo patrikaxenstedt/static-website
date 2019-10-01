@@ -1,173 +1,145 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
   }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-nav {
-  
-  position: fixed;
-  width: 100%;
-  background-image: linear-gradient(230deg, #ae2335 0%, #cf6ec2   100%);
-  padding-top: 10px;
-  padding-bottom: 10px;
- 
-  
-}
-
-li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  padding: 10px 20px;
-  list-style: none;
-}
-
-a {
-  color: white;
-  text-transform: uppercase;
-}
-
-
-a:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-section {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-}
-
-p {
-  padding-bottom: 20px;
- }
-
-h1 {
-  color: white;
-}
-
-
-h2 {
-  color: black;
-}
-
-footer {
-    color: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 345px;
-    padding-bottom: 15px;
-}
-
-
-
-
-.logo {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 100px;
-    width: 300px;
+  html {
+  scroll-behavior : smooth;
   }
 
+  body {
+  background-image : url("background.jpg");
+  background-size : cover;
+  background-attachment : fixed;
+  }
 
+  nav {
+  position : fixed;
+  width : 100%;
+  background-image : linear-gradient(230deg, #ae2335 0%, #cf6ec2 100%);
+  padding-top : 10px;
+  padding-bottom : 10px;
+  }
 
-.navbar {
-  display: flex;
-  
-  
-}
+  li {
+  font-family : Arial, Helvetica, sans-serif;
+  font-size : 16px;
+  padding : 10px 20px;
+  list-style : none;
+  }
 
-.navbar > li {  
-  flex: 1;  
-}
+  a {
+  color : white;
+  text-transform : uppercase;
+  }
 
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
+  a:hover {
+  color : rgb(255 255 255 / 0.6);
+  }
 
+  section {
+  text-align : center;
+  margin-left : auto;
+  margin-right : auto;
+  padding-top : 20px;
+  }
 
-.container div {
-    width: 500px;
-    padding: 80px;
-    margin: 200px 40px;
-    background-color: rgba(255, 255, 255, 0.6)
-}
-  
+  p {
+  padding-bottom : 20px;
+  }
 
-.box-1 {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  
-}
+  h1 {
+  color : white;
+  }
 
+  h2 {
+  color : black;
+  }
 
-
-.box-2 {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
- 
-}
-
-
-.box-3 {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  
-}
-
-
-.box-4 {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  
-}
-
-
-@media all and (max-width: 768px) {  
-    
-  .navbar {  
-    flex-wrap: wrap;  
-  }  
-    
-  .navbar > li {  
-    flex-basis: 50%;  
+  footer {
+  color : white;
+  text-align : center;
+  margin-left : auto;
+  margin-right : auto;
+  padding-top : 345px;
+  padding-bottom : 15px;
   }
 
   .logo {
-    padding-top: 150px;
+  display : block;
+  margin-right : auto;
+  margin-left : auto;
+  padding-top : 100px;
+  width : 300px;
   }
 
+  .navbar {
+  display : flex;
+  }
 
+  .navbar > li {
+  flex : 1;
+  }
 
-@media all and (max-width: 320px) {  
-  .navbar > li {  
-    flex-basis: 100%;  
-   
+  .container {
+  display : flex;
+  align-items : center;
+  flex-direction : column;
+  justify-content : center;
+  }
+
+  .container div {
+  width : 500px;
+  padding : 80px;
+  margin : 200px 40px;
+  background-color : rgb(255 255 255 / 0.6);
+  }
+
+  .box-1 {
+  display : flex;
+  flex-flow : wrap;
+  justify-content : center;
+  }
+
+  .box-2 {
+  display : flex;
+  flex-flow : wrap;
+  justify-content : center;
+  }
+
+  .box-3 {
+  display : flex;
+  flex-flow : wrap;
+  justify-content : center;
+  }
+
+  .box-4 {
+  display : flex;
+  flex-flow : wrap;
+  justify-content : center;
+  }
+
+  @media all and (max-width: 768px) {
+  .navbar {
+  flex-wrap : wrap;
+  }
+  .navbar > li {
+  flex-basis : 50%;
+  }
+  .logo {
+  padding-top : 150px;
+    }
+  }
+  
+  @media all and (max-width: 320px) {
+  .navbar > li {
+  flex-basis : 100%;
   }
   .container div {
-    width: 100%;
+  width : 100%;
   }
   .logo {
-    padding-top: 200px;
+  padding-top : 200px;
+    }
   }

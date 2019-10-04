@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>BNB Café</title>
-  <link rel='stylesheet' href='style.css'/>
+  <link rel='stylesheet' href='./css/style.css' />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="navbar">
-                <li><a href="#hem">Hem</a></li>
-                <li><a href="#meny">Meny</a></li>
-                <li><a href="#om">Om oss</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Hem</a></li>
+        <li><a href="#meny">Meny</a></li>
+        <li><a href="#about">Om oss</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    
-    <img 
-      src="logo.png" 
-      alt="Logotype Beans not beings" 
-      class="logo" 
-      id="hem"
-    >
+  <img 
+    role="banner" 
+    src="./design/logo.png" 
+    alt="Logotype Beans not beings" 
+    class="logo" 
+    id="home">
 
-    <section>
-      <h1>VEGAN CAFÈ</h1>
-    </section>
+  <section>
+    <h1>VEGAN CAFÈ</h1>
+  </section>
 
-    <div class="container">
-      <div 
-        id="meny" 
-        class="box-1"
-      >
-        <h2>Meny</h2>
-        <embed 
-          width="500" 
-          height="500" 
-          src="meny.pdf" 
-          type="application/pdf">
-        
+  <div class="container" role="main">
 
-      </div>
+    <div id="meny" class="box-1">
 
-      <div 
-        id="om" 
-        class="box-2"
-        >
+      <h2>Meny</h2>
+      <embed 
+        role="img" 
+        aria-label="image-of-the-meny" 
+        width="500" 
+        height="500" 
+        src="./design/meny.pdf" 
+        type="application/pdf">
+    </div>
+
+    <div id="about" class="box-2" role="article">
+
       <h2>Om oss</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus unde eaque ratione fugit tempora voluptatum
-          reprehenderit eius distinctio officia provident harum ad aliquam exercitationem, voluptatem amet quibusdam 
-          minima delectus veritatis!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus unde eaque ratione fugit tempora voluptatum
-              reprehenderit eius distinctio officia provident harum ad aliquam exercitationem, voluptatem amet quibusdam 
-              minima delectus veritatis!</p>
-          <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/LbGfKKNPoaQ" 
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
-    
-      <div 
-        id="kontakt" 
-        class="box-4"
-        >
-        <h2>Kontakt</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus unde eaque ratione fugit tempora voluptatum
-           reprehenderit eius distinctio officia provident harum ad aliquam exercitationem, voluptatem amet quibusdam 
-           minima delectus veritatis!</p>
-      </div>
-      </div>
-    
+      <p>Vi startade 2017 med ett intresse och en passion för vegansk mat. Vi arbetar kreativt och med spännande
+        råvaror.
+        Allt som vi lagar här gör vi med så liten miljöpåverkan som möjligt. Alla råvaror är ekologiska och närodlade.
+        Allt detta för att värna om vår planet och djuren! </p>
 
-    <footer>
-      <p>Copyright Beans not beings 2019</p>
-    </footer>
+      <iframe 
+        aria-label="youtube-video" 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/LbGfKKNPoaQ"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div id="contact" class="box-4" role="article">
+
+      <h2>Kontakt</h2>
+      <p>Öppettider vardagar 10:00-20:00 helger 11:00-17:00</p>
+      <p>Telefon 08-8888888</p>
+      <p>Vi gillar feedback! Hör gärna av er till oss med frågor eller önskemål.</p>
+      <a class="email" href="#">info@beansnotbeings.se</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright Beans not beings 2019</p>
+  </footer>
 </body>
 
 </html>

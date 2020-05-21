@@ -1,4 +1,4 @@
-# u01-static-website
+First assignment, single-page website with HTML, CSS.
 
-## https://axenstedt.com/onepagesite/
-Patrik Axenstedt Chas Academy 2019
+https://axenstedt.com/onepagesite/
+

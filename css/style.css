@@ -47,14 +47,18 @@
 
   p {
     padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   h1 {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   h2 {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
   }
 
   footer {
@@ -106,6 +110,7 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    text-align: center;
   }
 
   .box-3 {
@@ -118,10 +123,16 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    text-align: center;
     color: black;
     text-transform: none;
   }
 
+  .email {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
   @media all and (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;

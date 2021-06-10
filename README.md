@@ -1,3 +1,3 @@
-First assignment, single-page website with HTML, CSS.
+First assignment, single-page website with HTML, CSS
 
 
